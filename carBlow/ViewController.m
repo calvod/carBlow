@@ -27,10 +27,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+Car* findCar() {
+    Car *carBeingFound = [Car alloc];
+    //set this to have the same location as the nearest car
+    return carBeingFound;
+}
+
+void blowUp(Car *someCar) {
+    //find nearest satellite
+    
+    //hack into it
+    
+    //shoot blow up frequence at the right location
+}
+
 - (IBAction)blow:(id)sender {
     
-    //blow up nearest iphone
-    Car *thisCarIsFucked = [[Car alloc] initWithViewToBreak:self.view];
+    //find nearest car
+    Car *thisCarIsFucked = findCar();
+    
+    //find the nearest satellite, and have it send blowy-up frequencies to that location
+    blowUp(thisCarIsFucked);
     
     NSLog(@"BOOOOOOOOM!");
     
