@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2697E2151990B24A00434C7C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 2697E2141990B24A00434C7C /* Car.m */; };
+		2697E2171990B52600434C7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2697E2161990B52600434C7C /* MapKit.framework */; };
 		F10DAA1C1990969E0001943C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DAA1B1990969E0001943C /* Foundation.framework */; };
 		F10DAA1E1990969E0001943C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DAA1D1990969E0001943C /* CoreGraphics.framework */; };
 		F10DAA201990969E0001943C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DAA1F1990969E0001943C /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2697E2131990B24A00434C7C /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		2697E2141990B24A00434C7C /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		2697E2161990B52600434C7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F10DAA181990969E0001943C /* carBlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carBlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10DAA1B1990969E0001943C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F10DAA1D1990969E0001943C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2697E2171990B52600434C7C /* MapKit.framework in Frameworks */,
 				F10DAA1E1990969E0001943C /* CoreGraphics.framework in Frameworks */,
 				F10DAA201990969E0001943C /* UIKit.framework in Frameworks */,
 				F10DAA1C1990969E0001943C /* Foundation.framework in Frameworks */,
@@ -79,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2697E2121990B23A00434C7C /* explodables */ = {
+			isa = PBXGroup;
+			children = (
+				2697E2131990B24A00434C7C /* Car.h */,
+				2697E2141990B24A00434C7C /* Car.m */,
+			);
+			name = explodables;
+			sourceTree = "<group>";
+		};
 		F10DAA0F1990969E0001943C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		F10DAA1A1990969E0001943C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2697E2161990B52600434C7C /* MapKit.framework */,
 				F10DAA1B1990969E0001943C /* Foundation.framework */,
 				F10DAA1D1990969E0001943C /* CoreGraphics.framework */,
 				F10DAA1F1990969E0001943C /* UIKit.framework */,
@@ -112,6 +128,7 @@
 		F10DAA211990969E0001943C /* carBlow */ = {
 			isa = PBXGroup;
 			children = (
+				2697E2121990B23A00434C7C /* explodables */,
 				F10DAA2A1990969E0001943C /* AppDelegate.h */,
 				F10DAA2B1990969E0001943C /* AppDelegate.m */,
 				F10DAA2D1990969E0001943C /* Main.storyboard */,
@@ -251,6 +268,7 @@
 			files = (
 				F10DAA321990969E0001943C /* ViewController.m in Sources */,
 				F10DAA2C1990969E0001943C /* AppDelegate.m in Sources */,
+				2697E2151990B24A00434C7C /* Car.m in Sources */,
 				F10DAA281990969E0001943C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +474,7 @@
 				F10DAA4C1990969E0001943C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10DAA4D1990969E0001943C /* Build configuration list for PBXNativeTarget "carBlowTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +483,7 @@
 				F10DAA4F1990969E0001943C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,9 +29,13 @@
 
 - (IBAction)blow:(id)sender {
     
-    //blow up nearest car
+    //blow up nearest iphone
+    Car *thisCarIsFucked = [[Car alloc] initWithViewToBreak:self.view];
+    
+    NSLog(@"BOOOOOOOOM!");
     
     NSLog(@"Car successfully blown");
 }
+
 
 @end

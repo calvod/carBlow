@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FFCD8410-D0D1-4BF8-9CC4-8F1902C20345</string>
+	<key>IDESourceControlProjectName</key>
+	<string>carBlow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D007816-27DD-46F1-9226-2B7C0623D632</key>
+		<string>ssh://github.com/jhurray/carBlow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>carBlow.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D007816-27DD-46F1-9226-2B7C0623D632</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jhurray/carBlow.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D007816-27DD-46F1-9226-2B7C0623D632</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D007816-27DD-46F1-9226-2B7C0623D632</string>
+			<key>IDESourceControlWCCName</key>
+			<string>carBlow</string>
+		</dict>
+	</array>
+</dict>
+</plist>
