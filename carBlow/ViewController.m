@@ -40,7 +40,15 @@ void blowUp(Car *someCar) {
     //hack into it
     
     //shoot blow up frequence at the right location
+    //send the earth station uplink at 6ghz, and the satellite should receive the signal
+    //have the satellite change the frequency to between 860-960Mhz
+    
+    
 }
+
+
+
+
 
 - (IBAction)blow:(id)sender {
     
